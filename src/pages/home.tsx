@@ -15,7 +15,7 @@ export default function Home() {
           <span className="inline-block glass-dark px-6 py-2 rounded-full font-medium tracking-widest text-sm uppercase text-secondary">Eendekuil, Western Cape</span>
           <h1 className="font-serif text-5xl md:text-7xl leading-tight drop-shadow-lg">A Place of Safety and Second Chances.</h1>
           <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto font-light drop-shadow-md">
-            Genuine healing set on a farm in the open Western Cape countryside. Faith-based, community-led recovery from substance abuse.
+            Genuine healing set on a farm in the open Western Cape countryside. Community-led recovery from substance abuse.
           </p>
           <div className="pt-8 flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link href="/contact" className="glass bg-secondary/80 text-white hover:bg-secondary/90 px-8 py-4 rounded-full font-medium transition-all w-full sm:w-auto text-center shadow-lg border-white/20">
@@ -61,10 +61,10 @@ export default function Home() {
             <div className="glass-strong rounded-[2rem] p-10 md:p-12 space-y-8">
               <div>
                 <h3 className="text-primary font-medium tracking-wider uppercase text-sm mb-3 glass px-4 py-1.5 rounded-full inline-block">Our Approach</h3>
-                <h2 className="font-serif text-4xl text-foreground leading-tight mt-4">Rooted in Faith, Driven by Community</h2>
+                <h2 className="font-serif text-4xl text-foreground leading-tight mt-4">Evidence-Informed, Community-Led Recovery</h2>
               </div>
               <p className="text-foreground/80 leading-relaxed text-lg">
-                We employ a holistic, faith-based approach that addresses the physical, emotional, and spiritual aspects of addiction. Our structured environment fosters accountability while surrounding residents with compassion.
+                We employ a holistic approach that addresses the physical, emotional, and social aspects of addiction. Our structured environment fosters accountability while surrounding residents with compassion.
               </p>
               <ul className="space-y-6 pt-4">
                 {[
@@ -100,7 +100,7 @@ export default function Home() {
           
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { title: "12 Step Program", desc: "Our Celebrate Recovery framework focuses on spiritual and emotional growth in a safe group setting.", icon: 1 },
+              { title: "Structured Recovery Program", desc: "A practical recovery framework focused on personal growth, accountability, and healthy connection in a safe group setting.", icon: 1 },
               { title: "Therapon Thinking Errors", desc: "Helping residents identify, understand, and rewire destructive thought patterns that lead to relapse.", icon: 2 },
               { title: "Relapse Prevention", desc: "Equipping individuals with practical tools to manage triggers and sustain long-term sobriety.", icon: 3 }
             ].map((prog, i) => (
