@@ -30,7 +30,7 @@ export default function Footer() {
             <ul className="space-y-4 text-sm text-primary-foreground/90">
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 shrink-0 mt-0.5 opacity-80" />
-                <span>6 Hoofstraat, Eendekuil<br />Western Cape, South Africa</span>
+                <span><strong>Primary:</strong> 6 HoofStraat, Eendekuil<br /><strong>Secondary:</strong> Boston/Bellville</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 shrink-0 opacity-80" />
@@ -38,11 +38,11 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="h-5 w-5 shrink-0 mt-0.5 opacity-80" />
-                <span className="break-all">togetherwecanrehab@gmail.com<br/>info@togetherwecanrehab.co.za</span>
+                <span className="break-all">togetherwecanrehab@gmail.com</span>
               </li>
               <li className="flex items-center gap-3 pt-2">
                 <Facebook className="h-5 w-5 shrink-0 opacity-80" />
-                <a href="https://facebook.com/togetherwecanrehab" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">
+                <a href="https://www.facebook.com/togetherwecanrehab" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">
                   facebook.com/togetherwecanrehab
                 </a>
               </li>
@@ -51,7 +51,7 @@ export default function Footer() {
         </div>
         
         <div className="mt-16 pt-8 border-t border-primary-foreground/20 text-sm text-primary-foreground/80 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p>© {new Date().getFullYear()} TWC. All rights reserved.</p>
+          <p>© ALL RIGHTS RESERVED. MADE BY theLocals DESIGN {new Date().getFullYear()}</p>
         </div>
       </div>
     </footer>

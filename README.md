@@ -12,7 +12,7 @@ Built with **React**, **Vite**, **Tailwind CSS**, and **TypeScript**. Fully opti
 - **Full Navigation & Routes**:
   - **Home**: Hero section, core pillars, daily routine overview, testimonials, and mission.
   - **About Us**: Story, values, philosophy, and team introduction.
-  - **Information & Programs**: 12-step celebrate recovery, MRT, daily activities, rules, and admission guidelines.
+  - **Information & Programs**: 12-step recovery program, MRT, daily activities, rules, and admission guidelines.
   - **Gallery**: Responsive image showcase highlighting the farm and facilities.
   - **Contact**: Location map, telephone lines, email addresses, and contact inquiry form.
 - **Fast Performance**: Bundled with Vite for instant loading and high lighthouse scores.

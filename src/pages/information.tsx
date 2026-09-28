@@ -4,13 +4,12 @@ import { CheckCircle2 } from "lucide-react";
 export default function Information() {
   const programs = [
     "Therapon Thinking Errors",
-    "Celebrate Recovery — 12 Step Program",
+    "12 Step Recovery Program",
     "MRT (Moral Reconation Therapy) Program",
     "Matrix Model",
     "Trigger and Relapse Prevention",
     "Life Skills",
     "Music and Art Therapy",
-    "Bible Study",
     "Trauma Release",
     "Transition from Primary Care to Secondary Care"
   ];

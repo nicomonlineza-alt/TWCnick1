@@ -113,12 +113,16 @@ export default function Contact() {
                     <MapPin className="h-8 w-8 text-secondary" />
                   </div>
                   <h3 className="font-serif font-medium text-2xl">Address</h3>
-                  <p className="text-foreground/80 text-base leading-relaxed">
-                    6 Hoofstraat<br />
-                    Eendekuil<br />
-                    Western Cape<br />
-                    South Africa
-                  </p>
+                  <div className="text-foreground/80 text-base leading-relaxed text-left space-y-4">
+                    <div>
+                      <strong className="block text-primary">Primary - Eendekuil</strong>
+                      6 HoofStraat, Eendekuil
+                    </div>
+                    <div>
+                      <strong className="block text-primary">Secondary - Bellville</strong>
+                      Boston/Bellville
+                    </div>
+                  </div>
                 </div>
                 <div className="glass-card rounded-[2rem] p-8 flex flex-col gap-4 shadow-lg border-white/50 text-center items-center hover:-translate-y-1 transition-transform">
                   <div className="p-4 glass rounded-full w-fit mb-2 shadow-sm">

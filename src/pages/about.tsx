@@ -44,7 +44,7 @@ export default function About() {
                 <p className="glass-card p-6 rounded-[1.5rem]">
                   We chose a farm setting deliberately. There is something profoundly healing about the countryside—
                   away from the noise, the triggers, and the relentless pace of city life. Here, our residents can breathe, reflect, 
-                  and rebuild. We are a faith-based institution that believes every person has inherent worth and the 
+                  and rebuild. We are a dedicated institution that believes every person has inherent worth and the 
                   capacity to change, no matter how far they have fallen.
                 </p>
                 <p className="glass-card p-6 rounded-[1.5rem]">
