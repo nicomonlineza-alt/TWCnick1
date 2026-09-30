@@ -6,7 +6,7 @@ export default function About() {
       {/* Header */}
       <header className="relative py-32 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img src={assetUrl('images/parallax/1.jpg')} alt="" className="w-full h-full object-cover" />
+          <img src={assetUrl('images/home1.png')} alt="" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-primary/70 backdrop-blur-sm" />
         </div>
         <div className="relative z-10 container mx-auto px-4 text-center max-w-3xl mt-8">
