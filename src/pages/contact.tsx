@@ -135,9 +135,8 @@ export default function Contact() {
                     <Mail className="h-8 w-8 text-secondary" />
                   </div>
                   <h3 className="font-serif font-medium text-2xl">Email</h3>
-                  <div className="text-foreground/80 text-base flex flex-col sm:flex-row gap-4 mt-2 w-full justify-center">
-                    <a href="mailto:togetherwecanrehab@gmail.com" className="hover:text-primary transition-colors break-all glass px-6 py-3 rounded-full">togetherwecanrehab@gmail.com</a>
-                    <a href="mailto:info@togetherwecanrehab.co.za" className="hover:text-primary transition-colors break-all glass px-6 py-3 rounded-full">info@togetherwecanrehab.co.za</a>
+                  <div className="text-foreground/80 text-base flex flex-col gap-4 mt-2 w-full justify-center">
+                    <a href="mailto:twc.belinda@gmail.com" className="hover:text-primary transition-colors break-all glass px-6 py-3 rounded-full">twc.belinda@gmail.com</a>
                   </div>
                 </div>
               </div>
