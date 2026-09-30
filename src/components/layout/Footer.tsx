@@ -30,7 +30,7 @@ export default function Footer() {
             <ul className="space-y-4 text-sm text-primary-foreground/90">
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 shrink-0 mt-0.5 opacity-80" />
-                <span><strong>Primary:</strong> 6 HoofStraat, Eendekuil<br /><strong>Secondary:</strong> Boston/Bellville</span>
+                <span><strong>Primary:</strong> 6 HoofStraat, Eendekuil</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 shrink-0 opacity-80" />
