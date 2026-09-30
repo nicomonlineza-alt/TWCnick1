@@ -60,7 +60,7 @@ export default function Home() {
               </div>
               <h3 className="font-serif text-2xl text-foreground uppercase tracking-wide">Getting Help</h3>
               <p className="text-muted-foreground leading-relaxed">
-                The first step to recovery is recognizing there is a problem and seeking help. We have a primary facility in Eendekuil (Western Cape) and a secondary facility in Boston (Western Cape). <Link href="/contact" className="text-secondary hover:underline font-medium">Click Here</Link> to find us.
+                The first step to recovery is recognizing there is a problem and seeking help. We have a primary facility in Eendekuil (Western Cape). <Link href="/contact" className="text-secondary hover:underline font-medium">Click Here</Link> to find us.
               </p>
             </div>
           </div>
