@@ -1,15 +1,6 @@
 import { assetUrl } from "@/lib/utils";
 
 export default function About() {
-  const staff = [
-    { name: "Uncle Dave", role: "Founder / Director" },
-    { name: "Chris", role: "Facility Manager" },
-    { name: "Sister Kroon", role: "Medical Staff" },
-    { name: "Sister Boshoff", role: "Medical Staff" },
-    { name: "Lee", role: "Counselor" },
-    { name: "Hein", role: "Support Staff" },
-  ];
-
   return (
     <div className="flex flex-col min-h-[100dvh]">
       {/* Header */}
@@ -94,29 +85,7 @@ export default function About() {
         </div>
       </section>
 
-      {/* Team */}
-      <section className="relative py-24 bg-background">
-        <div className="absolute inset-0 z-0 opacity-10" style={{ backgroundImage: `url(${assetUrl('images/blog/3c.jpg')})`, backgroundSize: 'cover', backgroundAttachment: 'fixed', filter: 'blur(40px)' }}></div>
-        <div className="container relative z-10 mx-auto px-4">
-          <div className="glass-strong rounded-[2.5rem] p-10 md:p-16 text-center max-w-3xl mx-auto mb-20 border-white/50">
-            <h2 className="font-serif text-4xl mb-6 text-foreground">Meet Our Dedicated Team</h2>
-            <p className="text-lg text-foreground/80">
-              A dedicated group of professionals and individuals who have walked the path, offering compassionate, lived-experience guidance.
-            </p>
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-y-16 gap-x-8 max-w-5xl mx-auto">
-            {staff.map((member, i) => (
-              <div key={i} className="text-center group">
-                <div className="w-36 h-36 mx-auto glass-card rounded-full mb-6 flex items-center justify-center overflow-hidden border-4 border-white shadow-lg group-hover:shadow-2xl group-hover:scale-105 transition-all duration-300">
-                  <span className="font-serif text-5xl text-primary/70 group-hover:text-primary transition-colors">{member.name.charAt(0)}</span>
-                </div>
-                <h3 className="font-serif text-2xl mb-2 text-foreground">{member.name}</h3>
-                <span className="glass inline-block px-4 py-1.5 rounded-full text-secondary font-medium tracking-wide uppercase text-xs">{member.role}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+
     </div>
   );
 }
