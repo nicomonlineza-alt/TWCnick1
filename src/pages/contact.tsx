@@ -118,10 +118,6 @@ export default function Contact() {
                       <strong className="block text-primary">Primary - Eendekuil</strong>
                       6 HoofStraat, Eendekuil
                     </div>
-                    <div>
-                      <strong className="block text-primary">Secondary - Bellville</strong>
-                      Boston/Bellville
-                    </div>
                   </div>
                 </div>
                 <div className="glass-card rounded-[2rem] p-8 flex flex-col gap-4 shadow-lg border-white/50 text-center items-center hover:-translate-y-1 transition-transform">
